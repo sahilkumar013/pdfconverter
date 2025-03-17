@@ -1,0 +1,95 @@
+/* Existing CSS remains the same */
+
+/* Medium devices (tablets, 992px and down) */
+@media (max-width: 1160px) {
+    .nav-btn1,
+    .nav-btn2 {
+      padding: 12px 23px;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 992px) {
+    .container {
+      padding: 15px 20px;
+    }
+  
+    .item1 {
+      width: 20%;
+      padding-left: 0;
+    }
+  
+    .item1 img {
+      height: 50px;
+    }
+  
+    .item2 {
+      gap: 30px;
+    }
+  
+    .item2 p {
+      font-size: 16px;
+    }
+  
+    .nav-btn1,
+    .nav-btn2 {
+      padding: 10px 15px;
+      font-size: 12px;
+      width: max-content;
+    }
+    .footer_logo p, .link_lists h3 {
+      font-size: 18px;
+    }
+    .link_lists {
+      width: 20%;
+  }
+  .link_lists ul li { 
+      font-size: 18px;
+    }
+    
+  }
+  
+  
+  /* Small devices (landscape phones, 768px and down) */
+  @media (max-width: 768px) {
+      .nav-links,
+      .nav-buttons {
+          display: none;
+      }
+  
+      .hamburger {
+          display: block;
+      }
+      
+        .footer_container {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          padding: 20px 10px;
+      
+          gap: 20px;
+        }
+      
+        .footer_logo {
+          width: 100%;
+        }
+      
+        .footer_logo p {
+          font-size: 17px;
+        }
+      
+        .link_lists {
+          width: 100%;
+        }
+      
+        .link_lists h3 {
+          font-size: 17px;
+        }
+      
+        .link_lists ul li {
+          font-size: 15px;
+        }
+      
+        .copyright p {
+          font-size: 13px;
+        }
+  }
